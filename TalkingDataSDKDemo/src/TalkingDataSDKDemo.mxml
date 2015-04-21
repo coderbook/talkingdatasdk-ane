@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:ViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+							xmlns:s="library://ns.adobe.com/flex/spark"
+							activate="aplication_active(event)"
+							applicationComplete="application_completeHandler(event)"
+							applicationDPI="160"
+							deactivate="application_deactivateHandler(event)"
+							firstView="views.TalkingDataSDKDemoHomeView">
+	
+	<fx:Script>
+		<![CDATA[
+			import com.talkingdata.sdk.TalkingDataAdTracking;
+			
+			import mx.events.FlexEvent;
+			protected function aplication_active(event:Event):void
+			{
+				
+			}
+			
+			protected function application_completeHandler(event:FlexEvent):void
+			{
+				TalkingDataAdTracking.init("16333e181d5d48418f0df2aac2ae72b5","talkingdata");
+			}
+			
+			protected function application_deactivateHandler(event:Event):void
+			{
+								
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:ViewNavigatorApplication>

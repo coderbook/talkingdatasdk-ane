@@ -1,0 +1,39 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2011 Adobe Systems Incorporated
+  All Rights Reserved.
+
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the
+  terms of the Adobe license agreement accompanying it.  If you have received this file from a
+  source other than Adobe, then your use, modification, or distribution of it requires the prior
+  written permission of Adobe.
+--> 
+
+
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
+<!-- 这里与三-3.2中的字符串相同 -->
+  <id>com.talkingdata.sdk</id>
+  <versionNumber>1.0.0</versionNumber>
+  <platforms>
+<!--   Android-ARM  相对android的文件夹-->
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>talkingdataane.jar</nativeLibrary>
+        <!-- 这里是之前在android库中创建的类名 -->
+        <initializer>com.talkingdata.sdk.flashair.TalkingDataSDKExtension</initializer>
+        <finalizer>com.talkingdata.sdk.flashair.TalkingDataSDKExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+    <platform name="iPhone-ARM">
+      <applicationDeployment>
+        <nativeLibrary>libTalkingDataSDKIOSLib.a</nativeLibrary>
+        <!-- 对ios库中TalkingDataSDKIOSLib里方式的名称 -->
+        <initializer>TalkingDataSDKExtensionInitializer</initializer>
+        <finalizer>TalkingDataSDKContextFinalizer</finalizer>
+      </applicationDeployment>
+    </platform>
+    <platform name="default">
+        <applicationDeployment/>
+	</platform>
+  </platforms>
+</extension>

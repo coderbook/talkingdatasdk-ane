@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADE2C00D1AD3BBA100306ABA /* TalkingDataSDKIOSLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADE2C00C1AD3BBA100306ABA /* TalkingDataSDKIOSLib.h */; };
+		ADE2C00F1AD3BBA100306ABA /* TalkingDataSDKIOSLib.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE2C00E1AD3BBA100306ABA /* TalkingDataSDKIOSLib.m */; };
+		ADE2C0151AD3BBA100306ABA /* libTalkingDataSDKIOSLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE2C0091AD3BBA100306ABA /* libTalkingDataSDKIOSLib.a */; };
+		ADE2C0271AD3D29700306ABA /* libTalkingDataAppCpa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE2C0251AD3D29700306ABA /* libTalkingDataAppCpa.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE2C0161AD3BBA100306ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE2C0011AD3BBA100306ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE2C0081AD3BBA100306ABA;
+			remoteInfo = TalkingDataSDKIOSLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADE2C0071AD3BBA100306ABA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ADE2C00D1AD3BBA100306ABA /* TalkingDataSDKIOSLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ADE2C0091AD3BBA100306ABA /* libTalkingDataSDKIOSLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTalkingDataSDKIOSLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE2C00C1AD3BBA100306ABA /* TalkingDataSDKIOSLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkingDataSDKIOSLib.h; sourceTree = "<group>"; };
+		ADE2C00E1AD3BBA100306ABA /* TalkingDataSDKIOSLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkingDataSDKIOSLib.m; sourceTree = "<group>"; };
+		ADE2C0141AD3BBA100306ABA /* TalkingDataSDKIOSLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkingDataSDKIOSLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE2C01A1AD3BBA100306ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE2C0231AD3BBF600306ABA /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		ADE2C0251AD3D29700306ABA /* libTalkingDataAppCpa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTalkingDataAppCpa.a; sourceTree = "<group>"; };
+		ADE2C0261AD3D29700306ABA /* TalkingDataAppCpa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkingDataAppCpa.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE2C0061AD3BBA100306ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE2C0271AD3D29700306ABA /* libTalkingDataAppCpa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE2C0111AD3BBA100306ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE2C0151AD3BBA100306ABA /* libTalkingDataSDKIOSLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE2C0001AD3BBA100306ABA = {
+			isa = PBXGroup;
+			children = (
+				ADE2C00B1AD3BBA100306ABA /* TalkingDataSDKIOSLib */,
+				ADE2C0181AD3BBA100306ABA /* TalkingDataSDKIOSLibTests */,
+				ADE2C00A1AD3BBA100306ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE2C00A1AD3BBA100306ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2C0091AD3BBA100306ABA /* libTalkingDataSDKIOSLib.a */,
+				ADE2C0141AD3BBA100306ABA /* TalkingDataSDKIOSLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE2C00B1AD3BBA100306ABA /* TalkingDataSDKIOSLib */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2C0241AD3D28C00306ABA /* TalkingDataLibs */,
+				ADE2C0231AD3BBF600306ABA /* FlashRuntimeExtensions.h */,
+				ADE2C00C1AD3BBA100306ABA /* TalkingDataSDKIOSLib.h */,
+				ADE2C00E1AD3BBA100306ABA /* TalkingDataSDKIOSLib.m */,
+			);
+			path = TalkingDataSDKIOSLib;
+			sourceTree = "<group>";
+		};
+		ADE2C0181AD3BBA100306ABA /* TalkingDataSDKIOSLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2C0191AD3BBA100306ABA /* Supporting Files */,
+			);
+			path = TalkingDataSDKIOSLibTests;
+			sourceTree = "<group>";
+		};
+		ADE2C0191AD3BBA100306ABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2C01A1AD3BBA100306ABA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADE2C0241AD3D28C00306ABA /* TalkingDataLibs */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2C0251AD3D29700306ABA /* libTalkingDataAppCpa.a */,
+				ADE2C0261AD3D29700306ABA /* TalkingDataAppCpa.h */,
+			);
+			path = TalkingDataLibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE2C0081AD3BBA100306ABA /* TalkingDataSDKIOSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE2C01D1AD3BBA100306ABA /* Build configuration list for PBXNativeTarget "TalkingDataSDKIOSLib" */;
+			buildPhases = (
+				ADE2C0051AD3BBA100306ABA /* Sources */,
+				ADE2C0061AD3BBA100306ABA /* Frameworks */,
+				ADE2C0071AD3BBA100306ABA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkingDataSDKIOSLib;
+			productName = TalkingDataSDKIOSLib;
+			productReference = ADE2C0091AD3BBA100306ABA /* libTalkingDataSDKIOSLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADE2C0131AD3BBA100306ABA /* TalkingDataSDKIOSLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE2C0201AD3BBA100306ABA /* Build configuration list for PBXNativeTarget "TalkingDataSDKIOSLibTests" */;
+			buildPhases = (
+				ADE2C0101AD3BBA100306ABA /* Sources */,
+				ADE2C0111AD3BBA100306ABA /* Frameworks */,
+				ADE2C0121AD3BBA100306ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE2C0171AD3BBA100306ABA /* PBXTargetDependency */,
+			);
+			name = TalkingDataSDKIOSLibTests;
+			productName = TalkingDataSDKIOSLibTests;
+			productReference = ADE2C0141AD3BBA100306ABA /* TalkingDataSDKIOSLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE2C0011AD3BBA100306ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TalkingData;
+				TargetAttributes = {
+					ADE2C0081AD3BBA100306ABA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ADE2C0131AD3BBA100306ABA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = ADE2C0041AD3BBA100306ABA /* Build configuration list for PBXProject "TalkingDataSDKIOSLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADE2C0001AD3BBA100306ABA;
+			productRefGroup = ADE2C00A1AD3BBA100306ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE2C0081AD3BBA100306ABA /* TalkingDataSDKIOSLib */,
+				ADE2C0131AD3BBA100306ABA /* TalkingDataSDKIOSLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE2C0121AD3BBA100306ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE2C0051AD3BBA100306ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE2C00F1AD3BBA100306ABA /* TalkingDataSDKIOSLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE2C0101AD3BBA100306ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE2C0171AD3BBA100306ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE2C0081AD3BBA100306ABA /* TalkingDataSDKIOSLib */;
+			targetProxy = ADE2C0161AD3BBA100306ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADE2C01B1AD3BBA100306ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADE2C01C1AD3BBA100306ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE2C01E1AD3BBA100306ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TalkingDataSDKIOSLib/TalkingDataLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADE2C01F1AD3BBA100306ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TalkingDataSDKIOSLib/TalkingDataLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADE2C0211AD3BBA100306ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkingDataSDKIOSLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADE2C0221AD3BBA100306ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkingDataSDKIOSLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE2C0041AD3BBA100306ABA /* Build configuration list for PBXProject "TalkingDataSDKIOSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE2C01B1AD3BBA100306ABA /* Debug */,
+				ADE2C01C1AD3BBA100306ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE2C01D1AD3BBA100306ABA /* Build configuration list for PBXNativeTarget "TalkingDataSDKIOSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE2C01E1AD3BBA100306ABA /* Debug */,
+				ADE2C01F1AD3BBA100306ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE2C0201AD3BBA100306ABA /* Build configuration list for PBXNativeTarget "TalkingDataSDKIOSLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE2C0211AD3BBA100306ABA /* Debug */,
+				ADE2C0221AD3BBA100306ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADE2C0011AD3BBA100306ABA /* Project object */;
+}
